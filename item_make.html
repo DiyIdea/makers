@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="item_make.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <form method="get" action="#" id="item_make_form">
+            <header>
+                <h2><input type="text" name="title" placeholder="제목" id="header_title"></h2>
+                <a href="item_page.html"><h3>메인</h3></a>
+            </header>    
+            <section>
+                <article>
+                    <div id="article_present">
+                        <textarea name="present" id="present_area" ></textarea>
+                    </div>
+                </article>
+                <article>
+                    <div id="article_field_select">
+                        <label for="field"><h2 id="field_title">모집하는 분야</h2></label>
+                        <div id="major">
+                            <select id="combo-box">
+                                <option>선택하세요.</option>
+                                <option value="환경에너지공학">환경에너지공학</option>
+                                <option value="중국어과">중국어과</option>
+                                <option value="관광경영학과">관광경영학과</option>
+                                <option value="소프트웨어학과">소프트웨어학과</option>
+                            </select>
+                            <div id="combo-items-container"></div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div id="article_question">
+                        <h3 id="question_title">Q & A</h3>
+                        <div id="question_area">
+                            <p>ex&#41; 먼가요></p>
+                            <p>답글 : ***을 추구합니다.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <div id="make_submit">
+                <input type="submit" value="신청하기">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

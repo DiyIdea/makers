@@ -1,0 +1,152 @@
+/* 전체 */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 메인 페이지 */
+div#page{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 600px;
+    height: 1000px;
+    overflow: scroll;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(204, 204, 204);
+}
+
+
+/* header */
+header{
+    margin-top: 20%;
+    margin-bottom: 15%;
+    width: 500px;
+}
+
+input#header_title{
+    width: 400px;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0.5px solid rgba(204, 204, 204, 0.5);
+    border-radius: 20px;
+}
+
+header > a{
+    float: right;
+    clear: both;
+}
+
+
+/* present */
+div#article_present{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: rgba(204, 204, 204, 0.7);
+    text-align: center;
+}
+
+textarea#present_area{
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    background-color: rgba(204, 204, 204, 0.2);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea#present_area:hover{
+    background-color: rgba(204, 204, 204, 0.7);
+}
+
+
+/* field select */
+div#article_field_select{
+    width: 500px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+#field_title{
+    margin-bottom: 20px;
+}
+
+
+/* question */
+h3#question_title{
+    width: 500px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+div#question_area{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: rgba(204, 204, 204, 0.7);
+}
+
+
+/* submit */
+div#make_submit{
+    width: 500px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+div#make_submit > input{
+    margin-bottom: 5%;
+    width: 400px;
+    height: 70px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+div#make_submit > input:hover{
+    background-color: rgba(204, 204, 204, 0.8);
+}
+
+
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.scroll-test::-webkit-scrollbar-button {
+width: 0;
+height: 0;
+}

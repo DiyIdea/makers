@@ -1,0 +1,108 @@
+/* 전체 */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 메인 페이지 */
+div#page{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 600px;
+    height: 1000px;
+    overflow: scroll;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(204, 204, 204);
+}
+
+/* header */
+header{
+    margin-top: 10%;
+    width: 450px;
+    margin-bottom: 10%
+}
+
+header > a{
+    text-align: right;
+}
+
+/* main */
+div#content_box{
+    padding: 25px;
+    width: 550px;
+    height: 300px;
+}
+
+/* list */
+
+ul#sub_box_list{
+    padding: 0;
+    float: left;
+}
+
+li.item_list{
+    float: left;
+}
+
+li.sub_item_list{
+    float: left;
+}
+
+
+/* item box */
+div.item_box{
+    margin: 0 30px 30px 0;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+div.item_box:hover{
+    box-shadow: 2px 2px 3px gray;
+}
+
+div.item_box > p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* sub item box */
+div.sub_item_box{
+    width: 150px;
+    height: 75px;
+    border: 1px solid black;
+    margin: 10px 0px 0px 20px;
+}
+
+div.sub_table_box{ 
+    width: 150px;
+    height: 75px;
+    margin: 10px 0px 0px 20px;
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+  .scroll-test::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+  
